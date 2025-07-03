@@ -1,6 +1,6 @@
 # Sentiment Analysis on Real-World Comments using GPT API
 
-This project performs sentiment analysis on real user comments, particularly from the Digikala platform. It uses the OpenAI GPT model via the [Aival.ai](https://aival.ai) API to extract structured emotional insights from natural language reviews.
+This project performs sentiment analysis on real user comments, particularly from the Digikala platform. It uses the OpenAI GPT model via the [Avalai](https://avalai.ir/) API to extract structured emotional insights from natural language reviews.
 
 ---
 
@@ -40,15 +40,16 @@ This project performs sentiment analysis on real user comments, particularly fro
 
 ## 🔐 API Access
 
-This project uses GPT through the [Aival.ai](https://aival.ai) gateway (an OpenAI-compatible API). You can get your API key as follows:
+This project uses GPT through the [Avalai](https://avalai.ir/) gateway (an OpenAI-compatible API). You can get your API key as follows:
 
-1. Go to [https://aival.ai](https://aival.ai)
+1. Go to [https://avalai.ir/](https://avalai.ir/)
 2. Register an account and navigate to **API Dashboard**
 3. Copy your OpenAI-compatible key
 
-
+🧪 Sample Input
 "I ordered a dual SIM phone and they sent me one SIM card."
 
+✅ Sample Output
 {
   "Overall_sentiment": "Negative",
   "Inner_emotion": ["Anger", "Sadness"],
